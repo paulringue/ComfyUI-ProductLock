@@ -1,0 +1,12 @@
+[project]
+name = "comfyui-productlock"
+version = "0.1.0"
+description = "Keep a client's real product, packaging and logo pixel-intact through generative video."
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python-headless>=4.8",
+    "numpy>=1.24",
+]
+
+[tool.comfy]
+DisplayName = "ComfyUI-ProductLock"
